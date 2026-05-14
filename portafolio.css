@@ -56,3 +56,104 @@ nav ul li a {
     color: #cccccc;
     font-size: 24px;
 }
+
+.proyectos {
+    padding: 80px 40px;
+    background-color: #f5f5f5;
+}
+
+.proyectos h2{
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #1a1a1a;
+}
+
+.grid-proyectos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.tarjeta {
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.tarjeta h3{
+    font-size: 20px;
+    color: #1a1a1a;
+}
+
+.tarjeta p {
+    color: #666666;
+    font-size: 15px;
+}
+
+.tag {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.habilidades {
+    padding: 80px 40px;
+    background-color: #1a1a1a;
+}
+
+.habilidades h2 {
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.grid-habilidades {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.habilidad {
+    background-color: #2a2a2a;
+    padding: 24px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.habilidad h3 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.habilidad p {
+    color: #cccccc;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #0a0a0a;
+    padding: 40 px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+footer p {
+    color: #cccccc;
+    font-size: 15px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
